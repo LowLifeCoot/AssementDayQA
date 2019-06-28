@@ -1,0 +1,58 @@
+{
+    "id": 6,
+        "firstName": "Jean",
+            "lastName": "Coleman",
+                "address": "105 N. Lake St.",
+                    "city": "Monona",
+                        "telephone": "6085552654",
+                            "pets": [
+                                {
+                                    "id": 8,
+                                    "name": "Max",
+                                    "birthDate": "2012/09/04",
+                                    "type": {
+                                        "id": 1,
+                                        "name": "cat"
+                                    },
+                                    "owner": 6,
+                                    "visits": [
+                                        {
+                                            "id": 3,
+                                            "date": "2013/01/03",
+                                            "description": "neutered",
+                                            "pet": 8
+                                        },
+                                        {
+                                            "id": 2,
+                                            "date": "2013/01/02",
+                                            "description": "rabies shot",
+                                            "pet": 8
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "name": "Samantha",
+                                    "birthDate": "2012/09/04",
+                                    "type": {
+                                        "id": 1,
+                                        "name": "cat"
+                                    },
+                                    "owner": 6,
+                                    "visits": [
+                                        {
+                                            "id": 4,
+                                            "date": "2013/01/04",
+                                            "description": "spayed",
+                                            "pet": 7
+                                        },
+                                        {
+                                            "id": 1,
+                                            "date": "2013/01/01",
+                                            "description": "rabies shot",
+                                            "pet": 7
+                                        }
+                                    ]
+                                }
+                            ]
+}
