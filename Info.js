@@ -68,14 +68,6 @@ function getPets() {
 
 
 
-
-
-
-
-
-
-
-
     }
 
 
@@ -141,3 +133,5 @@ function getPets() {
 //                                 }
 //                             ]
 // }
+
+getPets();
