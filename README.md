@@ -1,3 +1,0 @@
-# AssementDayQA
-
-Updated
