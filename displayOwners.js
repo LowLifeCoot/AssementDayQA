@@ -1,13 +1,11 @@
 function createPage(data) {
     const ownerDetails = document.getElementById("ownerDetails");
-
-
-
+    
     for (let owners of data) {
         let { firstName, lastName, telephone } = owners;
         console.log(firstName);
 
-        const ownerDetailsP = document.createElement("p");
+        const ownerDetailsP = document.createElement("div");
         ownerDetailsP.innerText = "Owner: " + firstName + " " + lastName + ": " + telephone;
         ownerDetails.append(ownerDetailsP);
 
