@@ -1,34 +1,27 @@
-
-
-
 function createPage(data) {
     const ownerDetails = document.getElementById("ownerDetails");
 
 
-    for (let element of data) {
-        // const [...rest] = data;
 
-        // const {firstName, lastName, telephone } = rest;
-        // console.log("Haaaa" , firstName, lastName, telephone);
+    for (let owners of data) {
+        let { firstName, lastName, telephone } = owners;
+        console.log(firstName);
 
         const ownerDetailsP = document.createElement("p");
-        ownerDetailsP.innerText = element + ": " + data.element;
+        ownerDetailsP.innerText = "Owner: " + firstName + " " + lastName + ": " + telephone;
         ownerDetails.append(ownerDetailsP);
 
         const infoButton = document.createElement("button");
         infoButton.classList.add("btn");
         infoButton.classList.add("btn-info");
-        infoButton.setAttribute("type","button");
+        infoButton.setAttribute("type", "button");
         infoButton.addEventListener("click", () => {
-            moreInfo(element)
+            moreInfo(owners)
         });
         infoButton.innerText = "Info";
         ownerDetails.append(infoButton);
-
-
     }
 }
-
 
 function moreInfo(data) {
     const dataString = JSON.stringify(data);
