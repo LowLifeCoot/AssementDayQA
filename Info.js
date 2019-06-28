@@ -34,19 +34,19 @@ function getPets() {
         const { name, birthDate, type } = pet;
 
 
-        const {name:animal} = type;
+        const { name: animal } = type;
         let petDiv = document.createElement("div");
 
         petDiv.className = 'classdivs';
 
         let petNameH = document.createElement('h2');
-        
-        petNameH.innerText = 'Name: '+ name;
+
+        petNameH.innerText = 'Name: ' + name;
 
 
         let petbirthDateH = document.createElement('h2');
 
-        petbirthDateH.innerText = 'Birthday: '+ birthDate;
+        petbirthDateH.innerText = 'Birthday: ' + birthDate;
 
         let petType = document.createElement('h2');
 
@@ -58,7 +58,7 @@ function getPets() {
 
 
 
-        
+
 
 
 
