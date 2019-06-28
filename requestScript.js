@@ -12,3 +12,5 @@ function jsonRequest () {
     req.open(CMD, URL);
     req.send();
 }
+
+jsonRequest();
