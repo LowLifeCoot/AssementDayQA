@@ -13,3 +13,11 @@ img {
     width: 490px;
     
 }
+
+div { 
+    color: red; 
+    font-size:80; 
+    border-style: solid; 
+    border-width: thin;
+    
+}
