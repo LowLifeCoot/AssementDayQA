@@ -43,7 +43,7 @@ function getPets() {
 
         let petNameH = document.createElement('h2');
 
-        petNameH.innerText = 'Name: ' + name;
+        petNameH.innerText = 'Pet Name: ' + name;
 
 
         let petbirthDateH = document.createElement('h2');
