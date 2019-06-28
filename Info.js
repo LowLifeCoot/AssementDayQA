@@ -1,4 +1,4 @@
-const infoP = JSON.parse();
+const infoP = JSON.parse(sessionStorage('userData'));
 
 
 
@@ -51,6 +51,11 @@ function getPets() {
         let petType = document.createElement('h2');
 
         petType.innerText = animal;
+        petDiv.append(petNameH);
+        petDiv.append(petbirthDateH);
+        petDiv.append(petType);
+
+
 
 
         
